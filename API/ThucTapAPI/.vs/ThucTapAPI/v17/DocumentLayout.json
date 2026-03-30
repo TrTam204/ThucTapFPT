@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ThucTapFPT\\API\\ThucTapAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|d:\\thuctapfpt\\api\\thuctapapi\\thuctapapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|solutionrelative:thuctapapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|d:\\thuctapfpt\\api\\thuctapapi\\thuctapapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|solutionrelative:thuctapapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|d:\\thuctapfpt\\api\\thuctapapi\\thuctapapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|solutionrelative:thuctapapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|d:\\thuctapfpt\\api\\thuctapapi\\thuctapapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|solutionrelative:thuctapapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|d:\\thuctapfpt\\api\\thuctapapi\\thuctapapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|solutionrelative:thuctapapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|d:\\thuctapfpt\\api\\thuctapapi\\thuctapapi\\thuctapapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|solutionrelative:thuctapapi\\thuctapapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|d:\\thuctapfpt\\api\\thuctapapi\\thuctapapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|solutionrelative:thuctapapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|d:\\thuctapfpt\\api\\thuctapapi\\thuctapapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|solutionrelative:thuctapapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|d:\\thuctapfpt\\api\\thuctapapi\\thuctapapi\\thuctapapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{99C71452-732D-428E-8F02-90DF373373D5}|ThucTapAPI\\ThucTapAPI.csproj|solutionrelative:thuctapapi\\thuctapapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThucTapAPI.http",
+              "DocumentMoniker": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\ThucTapAPI.http",
+              "RelativeDocumentMoniker": "ThucTapAPI\\ThucTapAPI.http",
+              "ToolTip": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\ThucTapAPI.http",
+              "RelativeToolTip": "ThucTapAPI\\ThucTapAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-29T15:26:29.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ThucTapAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ThucTapAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAACIAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:26:00.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ThucTapAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ThucTapAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAkwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:20:04.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ThucTapAPI\\Models\\User.cs",
+              "ToolTip": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Models\\User.cs",
+              "RelativeToolTip": "ThucTapAPI\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:15:25.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ThucTapAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ThucTapAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T15:06:43.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ThucTapAPI\\Program.cs",
+              "ToolTip": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Program.cs",
+              "RelativeToolTip": "ThucTapAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:55:38.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ThucTapAPI\\AppDbContext.cs",
+              "ToolTip": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\AppDbContext.cs",
+              "RelativeToolTip": "ThucTapAPI\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:54:45.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ThucTapAPI\\Models\\Product.cs",
+              "ToolTip": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\Models\\Product.cs",
+              "RelativeToolTip": "ThucTapAPI\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:53:05.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThucTapAPI",
+              "DocumentMoniker": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\ThucTapAPI.csproj",
+              "RelativeDocumentMoniker": "ThucTapAPI\\ThucTapAPI.csproj",
+              "ToolTip": "D:\\ThucTapFPT\\API\\ThucTapAPI\\ThucTapAPI\\ThucTapAPI.csproj",
+              "RelativeToolTip": "ThucTapAPI\\ThucTapAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-29T14:47:14.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
