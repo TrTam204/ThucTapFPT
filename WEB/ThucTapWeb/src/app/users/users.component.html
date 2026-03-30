@@ -1,0 +1,28 @@
+<div class="users-container">
+  <div class="header-section">
+    <h2>Danh sách người dùng</h2>
+    <button class="refresh-btn" (click)="loadUsers()">Làm mới</button>
+  </div>
+
+  @if (loading) {
+    <div class="loading">Đang tải...</div>
+  } @else if (users.length === 0) {
+    <div class="empty-state">Không có người dùng nào</div>
+  } @else {
+    <div class="users-grid">
+      @for (user of users; track user.id) {
+        <div class="user-card">
+          <h3>{{user.name}}</h3>
+          <p class="email">{{user.email}}</p>
+          @if (user.role) {
+            <span class="role" [class]="user.role">{{user.role}}</span>
+          }
+        </div>
+      }
+    </div>
+  }
+
+  @if (errorMessage) {
+    <div class="error-message">{{errorMessage}}</div>
+  }
+</div>

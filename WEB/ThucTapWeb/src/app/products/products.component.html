@@ -1,0 +1,28 @@
+<div class="products-container">
+  <div class="header-section">
+    <h2>Danh sách sản phẩm</h2>
+    <button class="refresh-btn" (click)="loadProducts()">Làm mới</button>
+  </div>
+
+  @if (loading) {
+    <div class="loading">Đang tải...</div>
+  } @else if (products.length === 0) {
+    <div class="empty-state">Không có sản phẩm nào</div>
+  } @else {
+    <div class="products-grid">
+      @for (product of products; track product.id) {
+        <div class="product-card">
+          <h3>{{product.name}}</h3>
+          <p class="price">{{product.price | currency:'VND':'symbol':'1.0-0'}}</p>
+          @if (product.description) {
+            <p class="description">{{product.description}}</p>
+          }
+        </div>
+      }
+    </div>
+  }
+
+  @if (errorMessage) {
+    <div class="error-message">{{errorMessage}}</div>
+  }
+</div>
