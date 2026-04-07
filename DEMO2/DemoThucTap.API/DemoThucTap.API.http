@@ -1,0 +1,6 @@
+@DemoThucTap.API_HostAddress = http://localhost:5020
+
+GET {{DemoThucTap.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
