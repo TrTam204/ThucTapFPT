@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using DemoThucTap.API.Models;
 using DemoThucTap.API.Services;
 using System.Threading.Tasks;
@@ -6,6 +7,7 @@ namespace DemoThucTap.API.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
