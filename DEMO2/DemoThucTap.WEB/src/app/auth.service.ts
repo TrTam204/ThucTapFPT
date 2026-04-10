@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:5020/api/auth'; // Thay đổi theo port của bạn
+  private apiUrl = 'http://localhost:5021/api/auth'; // Thay đổi theo port của bạn
 
   constructor(private http: HttpClient) { }
 

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using DemoThucTap.API.Models;
 using DemoThucTap.API.Services;
 using System.Threading.Tasks;
-namespace DemoThucTap.API.Controller
+namespace ProductController
 {
     [Route("api/[controller]")]
     [ApiController]

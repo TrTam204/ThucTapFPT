@@ -1,13 +1,19 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { HeaderLayoutComponent } from "./header-layout/header-layout.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [HeaderLayoutComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'DemoThucTap.WEB';
+  title = {
+    name:"DemoThucTap.WEB",
+    version:"1.0.0"
+  };
+
+  isDisable = false;
+  contentImage = "Trường Tam";
 }

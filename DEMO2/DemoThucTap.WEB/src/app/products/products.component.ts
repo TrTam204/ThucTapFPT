@@ -1,34 +1,28 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-products',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <div>
-      <h2>Danh sách sản phẩm</h2>
-      <button (click)="logout()">Đăng xuất</button>
-      <ul>
-        <li *ngFor="let product of products">{{ product.name }} - {{ product.price }}</li>
-      </ul>
-    </div>
-  `
+  templateUrl: './products.component.html',
+  styleUrl: './products.component.css'
 })
 export class ProductsComponent implements OnInit {
   products: any[] = [];
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit() {
-    this.http.get('http://localhost:5020/api/products').subscribe((data: any) => {
+    this.http.get('http://localhost:5021/api/products').subscribe((data: any) => {
       this.products = data;
     });
   }
 
   logout() {
     localStorage.removeItem('token');
-    window.location.reload();
+    this.router.navigate(['/login']);
   }
 }

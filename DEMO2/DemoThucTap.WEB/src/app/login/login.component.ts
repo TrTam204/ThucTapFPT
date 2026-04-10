@@ -8,32 +8,8 @@ import { CommonModule } from '@angular/common';
   selector: 'app-login',
   standalone: true,
   imports: [FormsModule, CommonModule],
-  template: `
-    <div class="login-container">
-      <h2>Đăng nhập</h2>
-      <form (ngSubmit)="onLogin()">
-        <div>
-          <label for="username">Username:</label>
-          <input type="text" id="username" [(ngModel)]="username" name="username" required>
-        </div>
-        <div>
-          <label for="password">Password:</label>
-          <input type="password" id="password" [(ngModel)]="password" name="password" required>
-        </div>
-        <button type="submit" [disabled]="loading">Đăng nhập</button>
-      </form>
-      <p *ngIf="error" class="error">{{ error }}</p>
-    </div>
-  `,
-  styles: [`
-    .login-container { max-width: 300px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; }
-    form div { margin-bottom: 15px; }
-    label { display: block; margin-bottom: 5px; }
-    input { width: 100%; padding: 8px; box-sizing: border-box; }
-    button { width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
-    button:disabled { background-color: #ccc; }
-    .error { color: red; margin-top: 10px; }
-  `]
+  templateUrl: './login.component.html',
+  styleUrl: './login.component.css'
 })
 export class LoginComponent {
   username = '';
