@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniFptShop.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+261825ac56b7cb272722f7bed4ef424ca7900954")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3227b27e5c15d4095b8774c564ee8ddc28d52420")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniFptShop.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniFptShop.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

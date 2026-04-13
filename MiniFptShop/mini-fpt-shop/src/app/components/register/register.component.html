@@ -1,1 +1,22 @@
-<p>register works!</p>
+<div class="register-shell">
+  <form class="register-box" (ngSubmit)="onSubmit()">
+    <div class="register-top">
+      <h1>Đăng ký tài khoản</h1>
+      <p>Tạo tài khoản mới để mua gói và xem đơn hàng.</p>
+    </div>
+
+    <label>
+      Tên đăng nhập
+      <input type="text" placeholder="Nhập tên đăng nhập" [(ngModel)]="username" name="username" />
+    </label>
+
+    <label>
+      Mật khẩu
+      <input type="password" placeholder="Nhập mật khẩu" [(ngModel)]="password" name="password" />
+    </label>
+
+    <button type="submit">Đăng ký</button>
+
+    <div class="auth-message" *ngIf="message">{{ message }}</div>
+  </form>
+</div>

@@ -1,1 +1,21 @@
-<p>package-list works!</p>
+<section class="package-page">
+  <div class="hero-panel">
+    <div>
+      <div class="hero-label">Gói cước Internet</div>
+      <h1>Đăng ký nhanh - Truyền hình ngoại hạng - Kết nối tốc độ cao</h1>
+      <p>Chọn gói dịch vụ Mini FPT Shop phù hợp cho gia đình, giải trí và làm việc tại nhà.</p>
+    </div>
+    <button class="hero-action" type="button">Xem gói ngay</button>
+  </div>
+
+  <div class="grid-cards">
+    <article class="package-card" *ngFor="let item of packages">
+      <div class="card-header">
+        <h2>{{ item.name }}</h2>
+        <div class="price">{{ formatCurrency(item.price) }}</div>
+      </div>
+      <p class="description">{{ item.description }}</p>
+      <button class="register-button" type="button">Đăng ký ngay</button>
+    </article>
+  </div>
+</section>
